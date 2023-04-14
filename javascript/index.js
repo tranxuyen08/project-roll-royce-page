@@ -27,90 +27,90 @@ const cars = [
     name: "Mansory Rolls Royce Ghost based on the Rolls Royce Ghost V 12 | Mansory",
     content: "New 72-Plate Ghost, Starlight Headliner with Shooting Star, Illuminated Front Grille, Rear Theatre Configuration, Single Coachline in Charles Blue, Bespoke Interior Scheme in Grace White/Scivaro Grey/Charles Blue."
   },
-  {
-    id: 5,
-    image: "image/Rolls-Royce-Phantom-1-8067-1652772439.jpg",
-    type: "phantom",
-    name:"Rolls-Royce Phantom 2023",
-    content: "Phantom 2023 không thay đổi nhiều về ngoại thất, bởi mục tiêu của các nhà thiết kế Rolls-Royce là duy trì vẻ ngoài vượt thời gian của mẫu sedan siêu sang. Lưới tản nhiệt Pantheon được chiếu sáng – tương tự dòng Ghost – với dải viền ngang mới bóng loáng. Đèn pha nâng cấp lên toàn LED với hình sao cắt bằng laser, tạo cảm giác hàng nghìn ngôi sao đặt bên trong cụm đèn."
-  },
-  {
-    id: 6,
-    image: "image/2022-Rolls-Royce-Phantom-2.jpg",
-    type: "phantom",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 7,
-    image: "image/2022-Rolls-Royce-Phantom-2.jpg",
-    type: "phantom",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 8,
-    image: "image/2022-Rolls-Royce-Phantom-2.jpg",
-    type: "phantom",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 9,
-    image: "image/images (1).jpeg",
-    type: "Phantom-EWB",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 10,
-    image: "image/images (1).jpeg",
-    type: "Phantom-EWB",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 11,
-    image: "image/images (1).jpeg",
-    type: "Phantom-EWB",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 12,
-    image: "image/images (1).jpeg",
-    type: "Phantom-EWB",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 13,
-    image: "  image/images (2).jpeg",
-    type: "Wraith",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 14,
-    image: "  image/images (2).jpeg",
-    type: "Wraith",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 15,
-    image: "  image/images (2).jpeg",
-    type: "Wraith",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
-  {
-    id: 16,
-    image: "image/images (2).jpeg",
-    type: "Wraith",
-    name:"Rolls-Royce Phantom VIII Series 2",
-    content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
-  },
+  // {
+  //   id: 5,
+  //   image: "image/Rolls-Royce-Phantom-1-8067-1652772439.jpg",
+  //   type: "phantom",
+  //   name:"Rolls-Royce Phantom 2023",
+  //   content: "Phantom 2023 không thay đổi nhiều về ngoại thất, bởi mục tiêu của các nhà thiết kế Rolls-Royce là duy trì vẻ ngoài vượt thời gian của mẫu sedan siêu sang. Lưới tản nhiệt Pantheon được chiếu sáng – tương tự dòng Ghost – với dải viền ngang mới bóng loáng. Đèn pha nâng cấp lên toàn LED với hình sao cắt bằng laser, tạo cảm giác hàng nghìn ngôi sao đặt bên trong cụm đèn."
+  // },
+  // {
+  //   id: 6,
+  //   image: "image/2022-Rolls-Royce-Phantom-2.jpg",
+  //   type: "phantom",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 7,
+  //   image: "image/2022-Rolls-Royce-Phantom-2.jpg",
+  //   type: "phantom",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 8,
+  //   image: "image/2022-Rolls-Royce-Phantom-2.jpg",
+  //   type: "phantom",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 9,
+  //   image: "image/images (1).jpeg",
+  //   type: "Phantom-EWB",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 10,
+  //   image: "image/images (1).jpeg",
+  //   type: "Phantom-EWB",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 11,
+  //   image: "image/images (1).jpeg",
+  //   type: "Phantom-EWB",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 12,
+  //   image: "image/images (1).jpeg",
+  //   type: "Phantom-EWB",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 13,
+  //   image: "  image/images (2).jpeg",
+  //   type: "Wraith",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 14,
+  //   image: "  image/images (2).jpeg",
+  //   type: "Wraith",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 15,
+  //   image: "  image/images (2).jpeg",
+  //   type: "Wraith",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
+  // {
+  //   id: 16,
+  //   image: "image/images (2).jpeg",
+  //   type: "Wraith",
+  //   name:"Rolls-Royce Phantom VIII Series 2",
+  //   content: "Ở phiên bản nâng cấp này, Rolls-Royce Phantom Series II sẽ khác biệt đôi chút so với Series I trước đây thông qua một vài chi tiết ngoại thất. Thứ Rolls-Royce tập trung nhất ở bản nâng cấp này chính là sự trải nghiệm của khách hàng thông qua các công nghệ và khả năng cá nhân hóa vô tận với các màu sơn và tùy chọn mới."
+  // },
 ]
 function render(element) {
   let defaultType = "ghost";
@@ -165,27 +165,26 @@ function handleNext() {
     btnBackImg.style.color = "#5c07b0"
     changeBkgHeader.style.backgroundColor = "#5c07b0"
   }
-  else {
+  else{
     x++
-    imgChange.src = `image/RollsRoyce_GhostTunnel_Anim_RESOLVE_004-low.webp`;
-    btnNextImg.style.color = "#1e1eb5"
-    btnBackImg.style.color = "#1e1eb5"
-    changeBkgHeader.style.backgroundColor = "#1e1eb5"
+    imgChange.src = `image/Gifimage(3).gif`;
+    btnNextImg.style.color = "#090959"
+    btnBackImg.style.color = "#090959"
+    changeBkgHeader.style.backgroundColor = "#090959"
   }
 }
-// function backImage() {
-//   if (x <= 1) {
-//     x = 2
-//     imgChange.src = `image/images (${x}).jpeg`;
-//   } else {
-//     x--
-//     imgChange.src = `image/images (${x}).jpeg`;
-//   }
-//   for (const showMiniImg of showMiniImgs) {
-//     if (imgChange.src == showMiniImg.src) {
-//       showMiniImg.classList.add('boder-img-mini')
-//     } else {
-//       showMiniImg.classList.remove('boder-img-mini')
-//     }
-//   }
-// }
+function handleBack() {
+  if (x <= 1) {
+    x = 2
+    imgChange.src = `image/Gifimage(3).gif`;
+    btnNextImg.style.color = "#090959"
+    btnBackImg.style.color = "#090959"
+    changeBkgHeader.style.backgroundColor = "#090959"
+  } else {
+    x--
+    imgChange.src = `image/rolls-royce-phantom-syntopia-01-640618985ed23.jpg`;
+    btnNextImg.style.color = "#5c07b0"
+    btnBackImg.style.color = "#5c07b0"
+    changeBkgHeader.style.backgroundColor = "#5c07b0"
+  }
+}
