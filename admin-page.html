@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/images (1).png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="stylessheet/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+  <title>Admin Page</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav-menu">
+        <div class="menu">
+          <div class="show-menu">
+            <a class="show-menu-link" href="">
+              <i class="fa-solid fa-bars"></i>
+              <h3 class="menu-title">Menu</h3>
+            </a>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link" href="#">Inspiring Greatness</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Models</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Bespoke</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Ownership</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Provenance</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Boutique</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Muse Arts Programme</a>
+            </li>
+          </ul>
+        </div>
+        <a class="home-link" href="#">
+          <img class="home-image" src="image/zyro-image.png" alt="">
+        </a>
+        <div class="menu-search">
+          <a class="search-link" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p class="search-text  ">Find a dealer</p>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <img class="main-image" src="image/rolls-royce-phantom-syntopia-01-640618985ed23.jpg" alt="">
+    <div class="main-content">
+      <p class="main-text">GHOST</p>
+      <h1 class="main-title">PURITY IS POSSIBILITY</h1>
+      <button class="btn">
+        <a class="btn-link" href="btn-link">
+          <p class="btn-text">DISCOVER MORE</p>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </button>
+    </div>
+  </main>
+  <section class="section-profile">
+    <div class="container">
+      <h2 class="title">Show Room</h2>
+      <iframe width="700px" height="400px" src="https://www.youtube.com/embed/LudugXc_Z2U?autoplay=1&mute=1&loop=1"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen allow="autoplay">
+      </iframe>
+      <div class="section-content">
+        <h3 class="title">EXPLORE FURTHER</h3>
+        <ul class="profile-list">
+          <li class="profile-item">
+            <a class="profile-link" href="#">
+              <img src="image/rolls-royce-phantom-tempuscollec-16202613895101643653243.webp" alt="">
+              <h4 class="title">Boutique</h4>
+              <p class="text">A collection car inspired by the remarkable ventures of Thunderbolt — a lightning-quick
+                vehicle that broke the land-speed record three times. As one of the most powerful models in Rolls-Royce
+                history, Black Badge Wraith embodies Thunderbolt's intrepid legacy of speed. </p>
+            </a>
+          </li>
+          <li class="profile-item">
+            <a class="profile-link" href="#">
+              <img src="image/download.jpeg" alt="">
+              <h4 class="title">Black Badge Wraith Black Arrow</h4>
+              <p class="text">Enhance your motor car with impressive finishing touches.</p>
+            </a>
+          </li>
+          <li class="profile-item">
+            <a class="profile-link" href="#">
+              <img src="image/clip-qua-trinh-lap-rap-sieu-xe-rolls-royce-tri-gia-hang-chuc-ty-dong.jpg" alt="">
+              <h4 class="title">Whispers</h4>
+              <p class="text">
+                <p class="rrmc-article-tile--text">Whispers gives Rolls-Royce owners access to a world beyond.</p>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section-products">
+    <div class="container">
+      <h2 class="title">Rolls Royce Series</h2>
+      <ul class="products-list">
+        <li class="products-item">
+          <a href="#" class="products-link">Rolls-Royce Ghost</a>
+        </li>
+        <li class="products-item">
+          <a href="#" class="products-link">Rolls-Royce Phantom</a>
+        </li>
+        <li class="products-item">
+          <a href="#" class="products-link">Rolls-Royce Phantom EWB</a>
+        </li>
+        <li class="products-item">
+          <a href="#" class="products-link">Rolls-Royce Wraith</a>
+        </li>
+      </ul>
+      <!-- js fillter products -->
+      <ul class="ghost-list">
+      </ul>
+      <div class="form-edit">
+      </div>
+      <button onclick="handleCreate()" class="btn btn-create">Create</button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <h2 class="footer-title title">Roll-Royce</h2>
+      <div class="footer-content">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="">Pre-owned</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Find a dealer</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Careers</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="">Cookies</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">EU tyre labels</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Site Map</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="">Pressclub</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">FAQs</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Whispers</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="">Legal</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Contact</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Language</a>
+          </li>
+        </ul>
+        <div class="social">
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="javascript/admin.js"></script>
+</body>
+
+</html>

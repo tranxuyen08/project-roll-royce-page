@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+.content{
+  position: relative;
+  width: 900px;
+    height: 700px;
+    border: 3px solid red;
+
+}
+.game{
+  position: absolute;
+  left: 300px;
+    top: 500px;
+
+}
+  img{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+  }
+</style>
+<body>
+  <div class="content">
+    <div class="game">
+      <img src="https://yt3.googleusercontent.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s900-c-k-c0x00ffffff-no-rj" alt="">
+    </div>
+    <button onclick="handleUp()">UP</button>
+    <button onclick="handleDown()">Down</button>
+    <button onclick="handleLeft()">Left</button>
+    <button onclick="handleRight()">Right</button>
+  </div>
+  <script>
+    class Character{
+      constructor(name,x,y){
+        this.name = name;
+        this.x = x;
+        this.y = y;
+      }
+      getUp(){
+        this.y -= 100;
+        if(this.y < -200){
+          this.y = 500;
+        }
+      }
+      getDown(){
+        this.y += 100;
+        if(this.y > 600){
+          this.y = 0;
+        }
+      }
+      getRight(){
+        this.x += 100;
+        if(this.x > 800){
+          this.x = 100;
+        }
+      }
+      getLeft(){
+        this.x -= 100;
+        if(this.x < -200){
+          this.x = 700;
+        }
+      }
+      getX(){
+        return this.x;
+      }
+      getY(){
+        return this.y
+      }
+    }
+    const rabit = new Character('rabit', 300, 300)
+    function render(){
+      const element = document.querySelector('.game')
+      element.style.top = rabit.getY() + "px"
+      element.style.left = rabit.getX() + "px"
+    }
+    render()
+    function handleUp(){
+      rabit.getUp()
+      render()
+    }
+    function handleDown(){
+      rabit.getDown()
+      render()
+    }
+    function handleLeft(){
+      rabit.getLeft()
+      render()
+    }
+    function handleRight(){
+      rabit.getRight()
+      render()
+    }
+
+  </script>
+</body>
+</html>

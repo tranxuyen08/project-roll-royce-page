@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  box-sizing: border-box;
+  background-color: #222;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* styles header */
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  background-color: #5c07b0;
+  /* opacity: 0.5; */
+}
+
+.menu {
+  position: relative;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-menu-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.show-menu-link:hover {
+  color: yellow;
+}
+
+.menu-list {
+  display: none;
+}
+
+.home-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.search-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.search-link:hover {
+  color: yellow;
+}
+.menu-search{
+  display: flex;
+  gap: 20px;
+}
+/* main */
+.main {
+  width: 100%;
+  position: relative;
+}
+
+.main-image {
+  opacity: 0.9;
+}
+
+.main-content {
+  position: absolute;
+  top: 400px;
+  left: 558px;
+  color: white;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+}
+.album{
+  position: relative;
+}
+.change-image{
+  position: absolute;
+  font-size: 50px;
+  z-index: 4;
+  top: 450px;
+  color: #5c07b0;
+  background: none;
+  border: none;
+}
+.change-image:hover{
+  cursor: pointer;
+}
+.back{
+  left: 50px;
+  background-color: none;
+}
+.next{
+  right: 50px;
+}
+/*  */
+.btn {
+  display: flex;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
+}
+
+.btn:hover {
+  background-color: rebeccapurple;
+}
+
+.btn-link:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.btn-link {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+
+/* section profile */
+.section-profile {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.profile-link {
+  color: white;
+}
+
+.title {
+  display: grid;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+
+.profile-link>img {
+  width: 100%;
+  height: 350px;
+}
+
+.profile-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.profile-item {
+  width: 400px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 20px;
+}
+/*section product */
+.section-products{
+  margin: 30px 0;
+}
+.products-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+.products-item{
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.products-item:hover{
+  background-color: rebeccapurple;
+}
+.products-item:hover .products-link{
+  color: yellow;
+}
+.ghost-list{
+  display: grid;
+  gap: 20px;
+  height: 550px;
+  grid-template-columns: auto auto auto auto;
+}
+.ghost-item{
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.card{
+  width: 100%;
+  height: 100%;
+}
+.card:hover{
+  background-color: #7b7777;
+  border: 1px solid;
+  padding: 0 5px;
+}
+
+.card-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-buy{
+  padding: 10px;
+  background-color: #e72525;
+}
+.btn-info{
+  align-items: center;
+}
+.ghost-image{
+  height: 200px;
+}
+.ghost-text{
+  color: white;
+}
+
+/* footer */
+.footer-title{
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+  margin: 20px 0;
+}
+.footer-list{
+  display: grid;
+  gap: 20px;
+}
+.footer-link{
+  color: white;
+}
+.fa-brands{
+  color: white;
+}
+.social{
+  display: flex;
+  gap: 20px;
+}
+/* btn */
+.btn-action{
+  display: flex;
+
+}
+.btn-edit{
+  padding: 10px;
+  background-color: #3636fa;
+}
+.btn-delete{
+  background-color: #e72525;
+display: grid;
+align-items: center;
+}
+
+/* form edit */
+.form-edit{
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  background-color: rebeccapurple;
+  gap: 2%;
+  padding: 100px;
+  display: none;
+}
+.form-content{
+  display: flex;
+
+}
+.form-label{
+  display: grid;
+  width: 20%;
+  justify-items: center;
+  z-index: 1;
+}
+.input-form{
+  display: grid;
+  width: 75%;
+  gap: 55px;
+
+}
+.btn-close{
+  position: absolute;
+  color: black;
+  background-color: red;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+}
+.btn-submit{
+  background-color: green;
+  padding: 15px;
+}
+input{
+  height: 30px;
+}
+.edit-img{
+  object-fit: cover;
+  object-position: center;
+  width: 200px;
+  height: 100px;
+}
+.btn-create{
+  position: absolute;
+  right: 45px;
+  padding: 10px;
+  background-color: yellow;
+}
