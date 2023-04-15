@@ -4,28 +4,32 @@ const cars = [
     image: "image/download (1).jpeg",
     type: "ghost",
     name: "Rolls-Royce Ghost 2021",
-    content: "Nền tảng của Rolls-Royce Ghost mới là cấu trúc nhôm linh hoạt giống như Phantom và Cullinan. Trên mẫu xe Ghost mới. các chi tiết như vách ngăn, sàn xe, bậc cửa và thanh khung dầm xe được tính toán và thiết kế lại để đáp ứng với nhu cầu của những khách hàng thượng lưu của hãng xe Anh quốc, vừa đảm bảo thú vị khi lái nhưng cũng phải thoải mái."
+    content: "Nền tảng của Rolls-Royce Ghost mới là cấu trúc nhôm linh hoạt giống như Phantom và Cullinan. Trên mẫu xe Ghost mới. các chi tiết như vách ngăn, sàn xe, bậc cửa và thanh khung dầm xe được tính toán và thiết kế lại để đáp ứng với nhu cầu của những khách hàng thượng lưu của hãng xe Anh quốc, vừa đảm bảo thú vị khi lái nhưng cũng phải thoải mái.",
+    qty : 0
   },
   {
     id: 2,
     image: "image/Rolls-Royce-Ghost-Black-Badge-2022-ra-mat-thi-truong-Viet-gia-tu-hon-33-ty-dong-0.jpg",
     type: "ghost",
     name: "Rolls-Royce Ghost Black Badge 2022",
-    content: "Từ lâu, Rolls-Royce Motor Cars đã luôn thu hút những vị khách hàng độc đáo – họ là những cá nhân ưa thích sự mới mẻ, những người đã làm nên sự nghiệp của mình bằng cách bước lên vị trí tiên phong và không ngừng chinh phục các giới hạn. Những vị chủ nhân này, dù là phái đẹp hay phái mạnh, đều rất rõ ràng trong phong thái riêng."
+    content: "Từ lâu, Rolls-Royce Motor Cars đã luôn thu hút những vị khách hàng độc đáo – họ là những cá nhân ưa thích sự mới mẻ, những người đã làm nên sự nghiệp của mình bằng cách bước lên vị trí tiên phong và không ngừng chinh phục các giới hạn. Những vị chủ nhân này, dù là phái đẹp hay phái mạnh, đều rất rõ ràng trong phong thái riêng.",
+    qty : 0
   },
   {
     id: 3,
     image: "image/rolls-royce-ghost-2016-moi-100-duoc-chao-ban-hon-1-trieu-usd-tai-viet-nam-259230j.webp",
     type: "ghost",
     name: "Rolls-Royce Ghost 2016",
-    content: "Đây chính là chiếc Rolls-Royce Ghost Series II thế hệ thứ nhất mới nhất tại Việt Nam còn sót lại trên thị trường. Thuộc đời 2016, thế nhưng xe vẫn còn mới tinh và chưa từng đăng kí. Xe được đưa về bởi Rolls-Royce Motor Cars Hanoi (nhà phân phối cũ của Rolls-Royce tại Việt Nam), sau khi chuyển quyền phân phối cho một đơn vị khác, chiếc Ghost Series II này đang được chào bán lại với giá rẻ hơn nhiều so thời điểm trước đây."
+    content: "Đây chính là chiếc Rolls-Royce Ghost Series II thế hệ thứ nhất mới nhất tại Việt Nam còn sót lại trên thị trường. Thuộc đời 2016, thế nhưng xe vẫn còn mới tinh và chưa từng đăng kí. Xe được đưa về bởi Rolls-Royce Motor Cars Hanoi (nhà phân phối cũ của Rolls-Royce tại Việt Nam), sau khi chuyển quyền phân phối cho một đơn vị khác, chiếc Ghost Series II này đang được chào bán lại với giá rẻ hơn nhiều so thời điểm trước đây.",
+    qty : 0
   },
   {
     id: 4,
     image: "image/images.jpeg",
     type: "ghost",
     name: "Mansory Rolls Royce Ghost based on the Rolls Royce Ghost V 12 | Mansory",
-    content: "New 72-Plate Ghost, Starlight Headliner with Shooting Star, Illuminated Front Grille, Rear Theatre Configuration, Single Coachline in Charles Blue, Bespoke Interior Scheme in Grace White/Scivaro Grey/Charles Blue."
+    content: "New 72-Plate Ghost, Starlight Headliner with Shooting Star, Illuminated Front Grille, Rear Theatre Configuration, Single Coachline in Charles Blue, Bespoke Interior Scheme in Grace White/Scivaro Grey/Charles Blue.",
+    qty : 0
   },
   // {
   //   id: 5,
@@ -126,8 +130,8 @@ function render(element) {
          <p class="ghost-text">${value.content}</p>
          </div>
          <div class="card-btn">
-         <button class="btn btn-buy" onclick="handleBuy">Click Buy Now</button>
-         <button class="btn btn-info" onclick="handleInfor">More Information</button>
+         <button class="btn btn-buy" onclick="handleBuy(${key})">Click Buy Now</button>
+         <button class="btn btn-info" onclick="handleInfor()">More Information</button>
          </div>
     </li>
     `
@@ -145,18 +149,15 @@ function changeTypeProduct(index) {
   cars.forEach((value, key) => {
     if (index.id.toLocaleLowerCase().trim() == value.type.toLocaleLowerCase()) {
       const showListType = document.querySelector('#' + `${value.type}`)
-      console.log(showListType);
-      let a = getListType.fillter(listType => listType.lennth)
+      let a = getListType.fillter(listType => listType.length)
     }
   })
 }
 let x = 1
-let y = 1
 let imgChange = document.querySelector('.main-image')
 let btnNextImg = document.querySelector('.next')
 let btnBackImg = document.querySelector('.back')
 let changeBkgHeader = document.querySelector('.header')
-console.log(imgChange);
 function handleNext() {
   if (x >= 2) {
     x = 1
@@ -187,4 +188,26 @@ function handleBack() {
     btnBackImg.style.color = "#5c07b0"
     changeBkgHeader.style.backgroundColor = "#5c07b0"
   }
+}
+function handleBuy(element){
+  let cartProduct = document.querySelector('.quantity')
+  cartProduct.style.display = "block"
+  product = []
+  qty = 0
+  cars.forEach((value, index) =>{
+    if(element == index){
+      value.qty++
+      console.log(value.qty);
+      product.push(value)
+      console.log(product);
+      cartProduct.innerHTML = value.qty
+    }else{
+      value.qty++
+      cartProduct.innerHTML = value.qty
+    }
+  })
+  alert('Đã Thêm Vào Giõ Hàng')
+
+  render(cars)
+
 }
